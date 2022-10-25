@@ -34,3 +34,6 @@ Coding style is of utmost importance. Magic numbers are not accepted and style c
 
 ### Video presenting the functionality
 The video can be found [here](https://youtu.be/IT1rydAFlZk).
+
+### Code
+The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/hw1_RGB_LED/hw1_RGB_LED.ino)
