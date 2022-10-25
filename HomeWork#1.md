@@ -1,7 +1,6 @@
 
 # Homework #1
-
-
+&nbsp  ;
 ## Task Requirements
 
 ### Components
