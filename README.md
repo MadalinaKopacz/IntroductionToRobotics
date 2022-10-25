@@ -25,9 +25,6 @@ The LED must be controlled with software, meaning you must read the value of the
 #### Coding Task
 Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key.
 
-#### Publishing Task
-The git repository must contain a README with the requirements, setup pictures and a video presenting the functionality.
-
 
 ### Pictures of the setup
 - [Front view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/FrontView.jpg)
