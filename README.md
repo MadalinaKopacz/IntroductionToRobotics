@@ -20,7 +20,7 @@ Each homework includes requirements, implementation details, code and image file
 
 #### Technical Task
 Use a separate potentiometer to control each of the colors of the RGB LED.
-The LED must be controlled with software, meaning you must read the value of the potentiometers with Arduino, and write a mapped value to each of the pins connected to the LED.
+The LED must be controlled with software, meaning we must read the value of the potentiometers with Arduino, and write a mapped value to each of the pins connected to the LED.
 
 #### Coding Task
 Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key.
