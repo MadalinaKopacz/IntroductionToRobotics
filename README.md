@@ -6,8 +6,8 @@ Introduction to Robotics laboratory homeworks, taken in the 3rd year at the **Fa
 
 Each homework includes requirements, implementation details, code and image files.
 
-
-## Homework #1
+<details>
+  <summary> Homework #1</summary>
 
 ### Task Requirements
 
