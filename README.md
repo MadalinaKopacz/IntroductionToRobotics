@@ -28,9 +28,13 @@ Coding style is of utmost importance. Magic numbers are not accepted and style c
 
 ### Pictures of the setup
 - [Front view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/FrontView.jpg)
-- [Back view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/BackView.jpg)
-- [Top-Down View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/TopDownView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/FrontView.jpg" width="400" height="400" />
 
+- [Back view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/BackView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/BackView.jpg" width="400" height="400" />
+ 
+- [Top-Down View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/TopDownView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/LabHomeworks/Homework%231/Setup_Pictures/TopDownView.jpg" width="400" height="400" />
 
 ### Video presenting the functionality
 The video can be found [here](https://youtu.be/IT1rydAFlZk).
