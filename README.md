@@ -63,7 +63,7 @@ This homework consisted in building the traffic lights for a crosswalk. I used 2
 - State 4: Starts after State 3 ends. The light is red for cars, **blinking green** for people and there is a beeping sounds from the buzzer at a constant interval, faster then the beeping in the previous state. This state lasts 4 seconds. 
 
 #### Coding Task
-Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key. An importantcoding challenge present in this task is using **millis()** instead of **delay()**.
+Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key. An important coding challenge present in this task is using **millis()** instead of **delay()**.
 
 
 ### 🖼️ Pictures of the setup
