@@ -41,8 +41,7 @@ The video can be found [here](https://youtu.be/IT1rydAFlZk).
 
 ### 🖥️ Code
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%231/hw1_RGB_LED/hw1_RGB_LED.ino).
-
-
+</details>
 <details>
   <summary> 🚦 Homework #2</summary>
 
@@ -83,3 +82,4 @@ The video can be found [here](https://youtu.be/yomegRG7JE8).
 ### 🖥️ Code
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%232/homework%232/homework%232.ino).
 
+</details>
