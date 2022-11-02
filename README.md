@@ -60,7 +60,7 @@ This homework consisted in building the traffic lights for a crosswalk. I used 2
 - State 1: default, reinstated after State 4 ends. We have green light for cars, red light for people, no sounds. The duration is indefinite, change by pressing the button.
 - State 2: Starts after 8 seconds after a button press. The light is yellow for cars, red for people and no sounds. This state lasts 3 seconds.
 - State 3: Starts after State 2 ends. The light is red for cars, green for people and there is a beeping sounds from the buzzer at a constant interval. This state lasts 8 seconds.
-- State 4: Starts after State 3 ends. The light is red for cars, **blinking green** for people and there is a beeping sounds from the buzzer at a constant interval, faster then the beeping in the previous state. This state lasts 3 seconds. This state lasts 4 seconds. 
+- State 4: Starts after State 3 ends. The light is red for cars, **blinking green** for people and there is a beeping sounds from the buzzer at a constant interval, faster then the beeping in the previous state. This state lasts 4 seconds. 
 
 #### Coding Task
 Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key. An importantcoding challenge present in this task is using **millis()** instead of **delay()**.
