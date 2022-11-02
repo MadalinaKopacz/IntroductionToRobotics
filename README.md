@@ -7,7 +7,7 @@ Introduction to Robotics laboratory homeworks, taken in the 3rd year at the **Fa
 Each homework includes requirements, implementation details, code and image files.
 
 <details>
-  <summary> 💡 Homework #1</summary>
+  <summary> <h2> 💡 Homework #1 </h2> </summary>
 
 ### 📜 Task Requirements
 
@@ -43,7 +43,7 @@ The video can be found [here](https://youtu.be/IT1rydAFlZk).
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%231/hw1_RGB_LED/hw1_RGB_LED.ino).
 </details>
 <details>
-  <summary> 🚦 Homework #2</summary>
+  <summary> <h2> 🚦 Homework #2 </h2> </summary>
 
 ### 📜 Task Requirements
 
