@@ -83,3 +83,45 @@ The video can be found [here](https://youtu.be/yomegRG7JE8).
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%232/homework%232/homework%232.ino).
 
 </details>
+<details>
+  <summary> <h2> 🕹️ Homework #3 </h2> </summary>
+
+### 📜 Task Requirements
+
+#### Components
+- 1 7-segment display 
+- 1 joystick
+- Resistors
+- Wires
+
+#### Task Description
+This homework consisted in using a joystick to control a 7-segment display. This system has 2 states:
+- State 1: default, but also reinstated after a button press in State 2. Current  position  blinking. Can  use  the  joystick  to  move  from one  position  to  its neighbors.   Short  pressing  the  button  toggles  State 2. Long pressing the button in State 1 resets the entire display by turning all the segments OFF and moving the current position to the decimal point.
+- State 2: initiated  after  a  button  press  in  State  1. The current segment stops blinking, adopting the state of the segment before selection (ON or OFF). Toggling the X axis should change  the  segment  state  from  ON  to  OFF  or  from  OFF  to  ON. Clicking the joystick should save the segment state and exit back to State 1.
+
+Mentions:
+- Long pressing the button to reset should be available only in State 1.
+- Some examples of possible movements: a - b (moving down); f - b(moving to the right); d - g (moving up); c - dp (moving to the right).
+- Joystick movements should be done with toggle, as in the lab (joy-Moved, etc)
+
+#### Coding Task
+Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key. An important coding challenge present in this task is using **millis()** instead of **delay()**.
+
+
+### 🖼️ Pictures of the setup
+- [Front view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/FrontView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/FrontView.jpg" width="400" height="400" />
+
+- [Back View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/BackView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/BackView.jpg" width="400" height="400" />
+
+- [Top-Down View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/TopDownView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/SetUp_Pictures/TopDownView.jpg" width="400" height="400" />
+
+### 🎞️ Video presenting the functionality
+The video can be found [here](https://youtu.be/J91DPxjZTuM).
+
+### 🖥️ Code
+The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/homework%233/homework%233.ino).
+
+</details>
