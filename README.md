@@ -165,3 +165,74 @@ The video can be found [here](https://youtu.be/3IIdMhDvcL8).
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/homework%234/homework%234.ino).
 
 </details>
+
+<details>
+  <summary> <h2> 🐱 Homework #5 </h2> </summary>
+
+### 📜 Task Requirements
+
+#### Components
+- 1 LCD
+- 1 joystick
+- 1 Led Matrix
+- Resistors
+- Wires
+
+#### Task Description
+Create a menu for your game, emphasis on the game. You
+should scroll on the LCD with the joystick. Remember you have quite a
+lot of flexibility here, but do not confuse that with a free ticket to slack
+off. The menu should include the following functionality:
+1. When powering up a game, a greeting message should be shown for
+a few moments.
+2. Should contain roughly the following categories:
+- Start game, starts the initial level of your game
+- Highscore:
+  - Initially, we have 0.
+  - Update it when the game is done. Highest possible score
+should be achieved by starting at a higher level.
+  - Save the top 5+ values in EEPROM with name and score.
+- Settings:
+  - Enter name. The name should be shown in highscore. Maybe
+somewhere else, as well?
+  - Starting level: Set the starting level value. The idea is to
+be able to start from a higher level as well. Can be replaced
+with difficulty.
+  - LCD contrast control (optional, it replaces the potentiome-
+ter). Save it to eeprom.
+  - LCD brightness control (mandatory, must change LED wire
+that’s directly connected to 5v). Save it to eeprom.
+  - Matrix brightness control (see function setIntesnity from the
+ledControl library). Save it to eeprom.
+  - Sounds on or off. Save it to eeprom.
+  - Extra stuff can include items specific to the game mechanics,
+or other settings such as chosen theme song etc. Again, save
+it to eeprom.
+- About: should include details about the creator(s) of the game.
+At least game name, author and github link or user (use scrolling
+text?)
+- How to play: short and informative description
+3. While playing the game: display all relevant info
+- Lives
+- Level
+- Score
+4. Upon game ending:
+- Screen 1: a message such as ”Congratulations on reaching level/score
+X”. ”You did better than y people.”. etc. Switches to screen 2
+upon interaction (button press) or after a few moments.
+- Screen 2: display relevant game info: score, time, lives left etc.
+Must inform player if he/she beat the highscore. This
+menu should only be closed by the player, pressing a button.
+
+### 🖼️ Pictures of the setup
+- [Front view](https://user-images.githubusercontent.com/79279298/206134033-643cebf2-b418-4db7-8c17-c7de65cd1efb.png)
+ <img src="https://user-images.githubusercontent.com/79279298/206134033-643cebf2-b418-4db7-8c17-c7de65cd1efb.png" width="600" height="400" />
+
+
+### 🎞️ Video presenting the functionality
+The video can be found [here](https://youtu.be/HEgEO06sODg).
+
+### 🖥️ Code
+The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%235/Homework%235.ino).
+
+</details>
