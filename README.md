@@ -125,3 +125,43 @@ The video can be found [here](https://youtu.be/J91DPxjZTuM).
 The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%233/homework%233/homework%233.ino).
 
 </details>
+
+<details>
+  <summary> <h2> 🔢 Homework #4 </h2> </summary>
+
+### 📜 Task Requirements
+
+#### Components
+- 1 4 digit 7-segment display 
+- 1 joystick
+- 1 74hc595 shift register
+- Resistors
+- Wires
+
+#### Task Description
+This homework consisted in using a joystick to move through the 4 digit 7- segment displays digits. We can press the button to lock in the current digit and use the other axis to increment/decrement the number.  By keeping the button pressed, we can reset all the digit values and the current position becomes the first digit. 
+This system has the following states:
+- State 1: default, but also reinstated after a button press in State 2. A joystick axis can be used to cycle through the 4 digits; using the other axis does nothing. A blinking decimal point shows the current digit position. By pressing the button, we lock in the selected digit and enter the second state.
+- State 2: initiated  after  a  button  press  in  State  1. In this state, the decimal point stays always on, and we can no longer use the axis to cycle throughout the  4  digits.   Using  the  other  axis,  we  can  increment/decrement  the  number  on  the  current  digit  IN  HEX.  By pressing the button again, it returns to the previous state.  Also, the system should  not continuosly increment, if we keep the joystick in one position.
+- Reset: toggled by long pressing the button, only in the first state. When resetting, all the digits go back to 0 and the current position is set to the first (rightmost) digit, in the first state.
+
+#### Coding Task
+Coding style is of utmost importance. Magic numbers are not accepted and style consistency is key.
+
+### 🖼️ Pictures of the setup
+- [Front view](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/FrontView.jpg)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/FrontView.jpg" width="600" height="400" />
+
+- [Back View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/BackView.png)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/BackView.png" width="600" height="400" />
+
+- [Top-Down View](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/TopDownView.png)
+ <img src="https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/SetUp_Pictures/TopDownView.png" width="600" height="400" />
+
+### 🎞️ Video presenting the functionality
+The video can be found [here](https://youtu.be/3IIdMhDvcL8).
+
+### 🖥️ Code
+The code can be found in this repository, [here](https://github.com/MadalinaKopacz/IntroductionToRobotics/blob/main/Homework%234/homework%234/homework%234.ino).
+
+</details>
